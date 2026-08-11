@@ -1,4 +1,4 @@
-name: Draw ZMK keymaps
+name: Auto Draw ZMK keymaps
 on:
   workflow_dispatch: # Allows you to run it manually from the Actions tab
   push:
