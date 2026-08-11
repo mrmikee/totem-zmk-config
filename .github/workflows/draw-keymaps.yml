@@ -3,7 +3,6 @@ on:
   workflow_dispatch: # Allows you to run it manually from the Actions tab
   push:
     branches:
-      - master
       - qwerty # Restricts auto-runs specifically to your main and qwerty branch
     paths:
       - "config/*.keymap"
