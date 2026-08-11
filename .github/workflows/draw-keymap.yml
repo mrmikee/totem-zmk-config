@@ -3,6 +3,8 @@ name: Draw ZMK keymaps
 on:
   workflow_dispatch:
   push:
+    branches:
+      - qwerty # Restricts auto-runs specifically to your main and qwerty branch
     paths:
       - "config/*.keymap"
       - "config/*.yml"
